@@ -1,4 +1,6 @@
 <template>
+
+<section>
   <div class="main">
     <ul class="cards">
       <li class="cards_item animate__animated animate__fadeInLeft">
@@ -8,17 +10,17 @@
             <h2 class="card_title">First cards made with:</h2>
             <p class="card_text">HTML, CSS</p>
              <a
-              href="https://github.com/Reese1997/flexi-cards-task.git
-/"
-              class="fab fa-github"
+              href="https://github.com/Reese1997/flexi-cards-task.git/" class="fab fa-github"
               style="font-size: 40px; color: #222"
             ></a>
-<a href="https://cocky-sammet-ea8b0e.netlify.app" target="_blank"
-              ><img
-                src="n.png"
-                style="height: 50px; width: 50px"
-                alt=""
-            /></a>
+            
+            <div class="buttons">
+              <a href="https://github.com/Reese1997/flexi-cards-task.git/" target="_blank">
+              <i class="bi bi-github" style="font-size: 30px; color: white; padding-right: 10px; padding-top: "></i></a>
+<a href="https://cocky-sammet-ea8b0e.netlify.app" target="_blank">
+<img src="../assets/images/logos/netlify.png" style="height: 30px; width: 30px;" alt=""></a>
+            </div>
+
           </div>
         </div>
       </li>
@@ -28,14 +30,12 @@
           <div class="card_content">
             <h2 class="card_title">Card Grid Layout</h2>
             <p class="card_text">HTML, CSS</p>
-            <a href="/" class="fab fa-github"></a>
-            <i
-              ><span
-                class="iconify mx-2"
-                data-icon="simple-icons:netlify"
-                style="font-size: 2rem"
-              ></span
-            ></i>
+              <div class="buttons">
+              <a href="https://github.com/Reese1997/flexi-cards-task.git/" target="_blank">
+              <i class="bi bi-github" style="font-size: 30px; color: white; padding-right: 10px; padding-top: "></i></a>
+<a href="https://mystifying-saha-9e18dd.netlify.app" target="_blank">
+<img src="../assets/images/logos/netlify.png" style="height: 30px; width: 30px;" alt=""></a>
+            </div>
           </div>
         </div>
       </li>
@@ -45,18 +45,12 @@
           <div class="card_content">
             <h2 class="card_title">Card Grid Layout</h2>
             <p class="card_text">HTML, CSS</p>
-            <a
-              href="https://github.com/Reese1997/Reese-s-Contact-Form.git
-/ "
-              class="fab fa-github"
-            ></a>
-            <i
-              ><span
-                class="iconify mx-2"
-                data-icon="simple-icons:netlify"
-                style="font-size: 2rem"
-              ></span
-            ></i>
+              <div class="buttons">
+              <a href="https://github.com/Reese1997/flexi-cards-task.git/" target="_blank">
+              <i class="bi bi-github" style="font-size: 30px; color: white; padding-right: 10px; padding-top: "></i></a>
+<a href="https://thirsty-brown-33cec3.netlify.app" target="_blank">
+<img src="../assets/images/logos/netlify.png" style="height: 30px; width: 30px;" alt=""></a>
+            </div>
             
           </div>
         </div>
@@ -67,19 +61,12 @@
           <div class="card_content">
             <h2 class="card_title">Temperature Converter</h2>
             <p class="card_text">Javascript</p>
-            <a
-              href="https://github.com/Reese1997/temp-converter.git
-/ "
-              class="fab fa-github"
-            ></a>
-            <i
-              ><span
-                class="iconify mx-2"
-                data-icon="simple-icons:netlify"
-                style="font-size: 2rem"
-                
-              ></span
-            ></i>
+             <div class="buttons">
+              <a href="https://github.com/Reese1997/flexi-cards-task.git/" target="_blank">
+              <i class="bi bi-github" style="font-size: 30px; color: white; padding-right: 10px; padding-top: "></i></a>
+<a href="https://priceless-wozniak-d0daa8.netlify.app" target="_blank">
+<img src="../assets/images/logos/netlify.png" style="height: 30px; width: 30px;" alt=""></a>
+            </div>
           </div>
         </div>
       </li>
@@ -89,14 +76,14 @@
           <div class="card_content">
             <h2 class="card_title">Calculator</h2>
             <p class="card_text">Javascript</p>
-            <a href="https://github.com/Reese1997/JavascriptCalc.git/" class="fab fa-github"></a>
-            <i
-              ><span
-                class="iconify mx-2"
-                data-icon="simple-icons:netlify"
-                style="font-size: 2rem"
-              ></span
-            ></i>
+              <div class="buttons">
+              <a href="https://github.com/Reese1997/flexi-cards-task.git/" target="_blank">
+              <i class="bi bi-github" style="font-size: 30px; color: white; padding-right: 10px; padding-top: "></i></a>
+<a href="https://reesecalculator.netlify.app
+
+" target="_blank">
+<img src="../assets/images/logos/netlify.png" style="height: 30px; width: 30px;" alt=""></a>
+            </div>
           </div>
         </div>
       </li>
@@ -106,22 +93,19 @@
           <div class="card_content">
             <h2 class="card_title">E-commerce site</h2>
             <p class="card_text">HTML, CSS, JAVASCRIPT</p>
-            <a
-              href="https://github.com/Reese1997/comstoreprojjs.git/"
-              class="fab fa-github"
-            ></a>
-            <i
-              ><span
-                class="iconify mx-2"
-                data-icon="simple-icons:netlify"
-                style="font-size: 5 rem"
-              ></span
-            ></i>
+              <div class="buttons">
+              <a href="https://github.com/Reese1997/flexi-cards-task.git/" target="_blank">
+              <i class="bi bi-github" style="font-size: 30px; color: white; padding-right: 10px; padding-top: "></i></a>
+<a href="https://clever-kowalevski-61cac6.netlify.app" target="_blank">
+<img src="../assets/images/logos/netlify.png" style="height: 30px; width: 30px;" alt=""></a>
+            </div>
           </div>
         </div>
       </li>
     </ul>
   </div>
+
+</section>
 </template>
 
 <script>

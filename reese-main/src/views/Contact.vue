@@ -1,4 +1,5 @@
 <template>
+<section>
   <form class="form" action="https://formspree.io/f/mwkazvyq" method="POST">
     <h1>Get in touch:</h1>
     <br /><br />
@@ -13,6 +14,8 @@
     <button class="but" type="submit ">Send</button>
     <!-- <button class="but2" type="Reset">Reset</button> -->
   </form>
+
+</section>
   <Footer />
 </template>
 
@@ -44,7 +47,11 @@ handleSubmit() {
 };
 </script>
 
-<style>
+<style scoped>
+section {
+  height: 110vh;
+}
+
 form {
   max-width: 1170px;
   margin: 30px auto;

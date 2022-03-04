@@ -1,8 +1,78 @@
 <template>
 
-<h3>Skills:</h3><br>
+<section>
+  <h3>Skills:</h3><br>
 
-<div class="skillbarcontainer">
+  <div class="row ">
+    <!-- SOFT SKILLS -->
+     <div class="col-6 ">
+       <div class="skillbarcontainer">
+
+  <div class="skill-bars ">
+  <div class="bar">
+    <div class="info">
+      <span>Team Player</span>
+    </div>
+    <div class="progress-line html">
+      <span></span>
+    </div>
+  </div>
+  <div class="bar">
+    <div class="info">
+      <span>Communication</span>
+    </div>
+    <div class="progress-line css">
+      <span></span>
+    </div>
+  </div>
+  <div class="bar">
+    <div class="info">
+      <span>Attention to Detail</span>
+    </div>
+    <div class="progress-line javascript">
+      <span></span>
+    </div>
+  </div>
+  <div class="bar">
+    <div class="info">
+      <span>Hard-Working</span>
+    </div>
+    <div class="progress-line nodejs">
+      <span></span>
+    </div>
+  </div>
+   <div class="bar">
+    <div class="info">
+      <span>Creative</span>
+    </div>
+    <div class="progress-line css">
+      <span></span>
+    </div>
+  </div>
+  <div class="bar">
+    <div class="info">
+      <span>Strategic</span>
+    </div>
+    <div class="progress-line css">
+      <span></span>
+    </div>
+  </div>
+  <div class="bar">
+    <div class="info">
+      <span>Flexibility</span>
+    </div>
+    <div class="progress-line mysql">
+      <span></span>
+    </div>
+  </div>
+</div>
+
+</div>
+     </div>
+
+    <!-- TECHNICAL SKILLS -->
+     <div class="col-6">
+       <div class="skillbarcontainer">
 
   <div class="skill-bars">
   <div class="bar">
@@ -64,11 +134,16 @@
 </div>
 
 </div>
+      </div> 
+  </div>
 
-<section>
+<div style="margin-top: 20px">
   "Design is not just what it looks like and feels like. 
   Design is how it works. - Steve Jobs"
+</div>
 </section>
+
+
 
 </template>
 
@@ -78,6 +153,10 @@ export default {};
 
 <style scoped>
 
+section {
+  padding-top: 140px
+}
+
 .skillbarcontainer {
   margin: auto;
 }
@@ -85,6 +164,10 @@ export default {};
 h3 {
   text-align: center;
 }
+
+span {
+  left: 0;}
+
 body {
   
   margin: 0;
@@ -112,7 +195,6 @@ html,body{
 }
 .skill-bars{
   padding: 100px 137px;
-  padding-top: 10%;
   width: 800px;
   margin: auto;
   background: #fff;
@@ -187,6 +269,9 @@ html,body{
   width: 95%;
 }
 .bar .progress-line.mongodb span{
+  width: 95%;
+}
+.bar .progress-line.mysql span{
   width: 95%;
 }
 .bar .progress-line.mysql span{

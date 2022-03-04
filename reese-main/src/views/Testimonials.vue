@@ -1,9 +1,10 @@
 <template>
+<section style="height: 160vh">
   <div class="main">
     <ul class="cards ">
       <li class="cards_item animate__animated animate__fadeInRight">
         <div class="card ">
-          <div class="godwin"><img src="@/assets/images/testimonial_images/Godwin.jpeg" style="width: 700px; height; 300px" /></div>
+          <div class="godwin"><img src="@/assets/images/testimonial_images/g.jpg" style="width:100%"></div>
           <div class="card_content">
             <h2 class="card_title">Head of Cirriculum</h2>
             <p class="card_text">Godwin Dzvapatsva</p>
@@ -19,7 +20,7 @@
       </li>
       <li class="cards_item animate__animated animate__fadeInRight">
         <div class="card">
-          <div class="card_image"><img src="@/assets/images/testimonial_images/jason.jpeg" style="width: 700px; height: 100%" /></div>
+          <div class="card_image"><img src="@/assets/images/testimonial_images/jason.png" style="width:100%"></div>
           <div class="card_content">
             <h2 class="card_title">Lecturer</h2>
             <p class="card_text">Jason Wandrag</p>
@@ -36,7 +37,7 @@
       </li>
       <li class="cards_item animate__animated animate__fadeInRight">
         <div class="card">
-          <div class="card_image"><img src="@/assets/images/testimonial_images/Abdul.jpg" style="width: 90%" /></div>
+          <div class="card_image"><img src="@/assets/images/testimonial_images/abdul.jpg" style="width:100%"></div>
           <div class="card_content">
             <h2 class="card_title">Full-Stack Developer</h2>
             <p class="card_text">Abdul-Muhaymien Salaam</p>
@@ -51,7 +52,7 @@
       </li>
       <li class="cards_item animate__animated animate__fadeInLeft">
         <div class="card">
-          <div class="card_image"><img src="@/assets/images/testimonial_images/Sergio3.jpg" /></div>
+          <div class="card_image"><img src="@/assets/images/testimonial_images/sergio.jpg" style="width:100%"></div>
           <div class="card_content">
             <h2 class="card_title">Full-Stack Developer</h2>
             <p class="card_text">
@@ -63,7 +64,7 @@
       </li>
       <li class="cards_item animate__animated animate__fadeInLeft">
         <div class="card">
-          <div class="card_image"><img src="@/assets/images/testimonial_images/chad.jpg" /></div>
+          <div class="card_image"><img src="@/assets/images/testimonial_images/chad.jpg" style="width:100%"></div>
           <div class="card_content">
             <h2 class="card_title">Full-Stack Developer</h2>
             <p class="card_text">
@@ -77,7 +78,7 @@
       </li>
       <li class="cards_item animate__animated animate__fadeInLeft">
         <div class="card">
-          <div class="card_image"><img src="" /></div>
+          <div class="card_image"><img src="@/assets/images/testimonial_images/daniel.png" style="width:100%"></div>
           <div class="card_content">
             <h2 class="card_title">Daniel Bowers</h2>
             <p class="card_text">Full-Stack Developer</p>
@@ -90,6 +91,8 @@
       </li>
     </ul>
   </div>
+
+</section>
 </template>
 
 <script>
@@ -191,6 +194,7 @@ img {
 }
 
 .card_content {
+  height: 250px;
   padding: 1rem;
   background: linear-gradient(
     to bottom left,

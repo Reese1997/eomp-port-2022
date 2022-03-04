@@ -1,19 +1,23 @@
 <template>
 
+<section>
   <div class="row">
-    <div class="col-6">
-      <img src="../assets/images/reese/Reese4.jpg" style="height: 100vh;">
+    <div class="col-md-6 col-sm-12" id="aboutimage">
+      <img src="../assets/images/reese/Reese4.jpg" style="height: 80vh;">
     </div>
 
-    <div class="col-6">
+    <div class="col-md-6 col-sm-12" id="aboutparagraph">
       <p style="font-size: 60px; font-family: 'Poppins', serif; color: #666666;">ABOUT</p>
       <p>Me</p>
       <p style="font-family: 'Poppins', serif; font-size: 20px;">
-        Hi, I'm Reese Simone Abrahams. I specialise as a Full-Stack Developer.<br><br>
-        With functionality, I construct and transform code into beautiful applications. My skills range from a wide variety of coding niches, from databases to graphic design and UI/UX management, and I do my job pretty well. <br/><br/>
+        Hi, I'm Reese Simone Abrahams! <br><br> I specialise as a Full-Stack Developer.<br><br>
+        With functionality, I construct and transform code into beautiful applications. My skills range from a wide variety of coding niches, from databases, graphic design to UI/UX management, and I do my job pretty well. <br/><br/>
      </p>
     </div>
   </div>
+
+</section>
+
   
 
 </template>
@@ -23,6 +27,26 @@ export default {};
 </script>
 
 <style scoped>
+
+@media screen and (max-width: 585px) {
+    #aboutparagraph{ 
+      padding: none;
+      }
+}
+
+@media screen and (max-width: 600px) {
+
+  section{
+    height: 190vh;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #aboutparagraph{ 
+    padding-left: 180px;
+  }
+}
+
 @media only screen and (max-width: 900px) {
   .masthead {
     padding: 7em 0;
@@ -30,6 +54,10 @@ export default {};
   .masthead-heading {
     font-size: 3em;
   }
+}
+
+#aboutparagraph {
+  padding-right: 180px
 }
 
 body {

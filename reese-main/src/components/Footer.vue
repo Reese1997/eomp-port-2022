@@ -8,27 +8,22 @@
     <div id="icon-container">
       <a href="https://www.linkedin.com/in/reese-abrahams-19525415b/">
         <div class="icon">
-          <li><i class="fab fa-linked-in"></i></li>
+          <li><i class="fab fa-linkedin"></i></li>
         </div>
       </a>
-      <a href="#">
+    <a href="https://codepen.io/reese1997">
         <div class="icon">
-          <li><i class="fab fa-instagram"></i></li>
+          <li><i class="fab fa-codepen"></i></li>
         </div>
       </a>
-      <a href="#">
-        <div class="icon">
-          <li><i class="fab fa-facebook-f"></i></li>
-        </div>
-      </a>
-      <a href="#">
+      <a href="https://reeseabrahams1997@icloud.com">
         <div class="icon">
           <li><i class="far fa-envelope"></i></li>
         </div>
       </a>
-      <a href="#">
+      <a href="https://github.com/Reese1997">
         <div class="icon">
-          <li><i class="fab fa-free-code-camp"></i></li>
+          <li><i class="fab fa-github"></i></li>
         </div>
       </a>
     </div>

@@ -1,7 +1,11 @@
 * {
-    overflow-x: hidden;
 }
 
 body {
     padding: 0;
+}
+
+section {
+    height: 100vh;
+    padding-top: 120px;
 }

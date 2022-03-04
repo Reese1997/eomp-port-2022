@@ -1,4 +1,6 @@
 <template>
+<h3>Work:</h3>
+<section>
   <div class="timeline">
     <div class="timeline__component">
       <div
@@ -74,6 +76,8 @@
       <div class="timeline__date">September 2021-March 2022</div>
     </div>
   </div>
+</section>
+
 </template>
 
 <script>
